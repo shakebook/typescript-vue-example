@@ -1,6 +1,6 @@
 import { createStore, Store, useStore as baseUseStore, createLogger } from 'vuex'
-import { home } from '@/store/home'
-import { about } from '@/store/about'
+import { account } from '@/store/account'
+import { role } from '@/store/role'
 import { RootState } from './types'
 import { InjectionKey } from 'vue'
 
@@ -8,8 +8,8 @@ export const ROOT_KEY: InjectionKey<Store<RootState>> = Symbol()
 
 export default createStore<RootState>({
   modules: {
-    home,
-    about,
+    account,
+    role,
   },
   //replace vuex devtools debug state in brower console
   plugins: process.env.NODE_ENV !== 'production'

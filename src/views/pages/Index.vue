@@ -1,0 +1,57 @@
+<template>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+  <div>index</div>
+  <div>sdfsdfsdf</div>
+</template>
+<script>
+export default {
+  name: "Account",
+};
+</script>

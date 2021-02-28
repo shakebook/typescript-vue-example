@@ -2,7 +2,7 @@ import { CommitOptions, Payload } from "vuex";
 
 export const CHANGE_ACCOUNT = 'CHANGE_ACCOUNT'
 
-export interface HomeState {
+export interface AccountState {
   account: AccountInfo,
 }
 

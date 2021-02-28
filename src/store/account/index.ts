@@ -1,10 +1,10 @@
 import { Module } from "vuex";
 import { RootState } from "../types";
-import { HomeState } from "./types";
+import { AccountState } from "./types";
 import { actions } from './actions';
 import { mutations } from './mutations';
 
-export const home: Module<HomeState, RootState> = {
+export const account: Module<AccountState, RootState> = {
   namespaced: true,
   state: {
     account: {

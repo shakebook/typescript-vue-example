@@ -1,7 +1,7 @@
-import { HomeState } from "./home/types";
-import { AboutState } from "./about/types";
+import { AccountState } from "./account/types";
+import { RoleState } from "./role/types";
 
 export interface RootState {
-  home: HomeState
-  about: AboutState
+  account: AccountState
+  role: RoleState
 }

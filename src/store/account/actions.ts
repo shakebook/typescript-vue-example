@@ -1,9 +1,9 @@
 import { ActionTree } from "vuex";
 import { RootState } from "../types";
-import { CHANGE_ACCOUNT, HomeState, AccountCommit } from "./types";
+import { CHANGE_ACCOUNT, AccountState, AccountCommit } from "./types";
 
 
-export const actions: ActionTree<HomeState, RootState> = {
+export const actions: ActionTree<AccountState, RootState> = {
   [CHANGE_ACCOUNT](store) {
     const commit: AccountCommit = store.commit
     setTimeout(() => {
