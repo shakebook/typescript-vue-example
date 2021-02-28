@@ -2,3 +2,5 @@
 
 `npm install`
 `npm run serve`
+
+## other project clean vue-element.
