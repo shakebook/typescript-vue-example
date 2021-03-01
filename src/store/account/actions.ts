@@ -12,6 +12,5 @@ export const actions: ActionTree<AccountState, RootState> = {
         accountPassword: '123456'
       })
     }, 200);
-
   }
 }

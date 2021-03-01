@@ -3,14 +3,9 @@ import { RoleState, SET_ROLE_LIST, SET_ROLE_DIALOG_FORM_VISIBLE, CREATE_ROLE_ITE
 
 export const mutations: MutationTree<RoleState> = {
   [SET_ROLE_LIST](state: RoleState, payload: Role[]): void {
-    console.log(payload)
     state.roleList = payload
   },
   [SET_ROLE_DIALOG_FORM_VISIBLE](state: RoleState, payload: boolean): void {
     state.dialogFormVisible = payload
-  },
-  [CREATE_ROLE_ITEM](state: RoleState, payload: Role[]): void {
-    console.log(payload)
-    state.roleList = payload
   },
 }

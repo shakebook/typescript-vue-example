@@ -17,10 +17,10 @@ export const actions: ActionTree<RoleState, RootState> = {
     setTimeout(() => {
       const prevList = store.state.roleList
       commit(SET_ROLE_LIST, [...prevList,
-      { createAt: '2021-02-01', roleName: 'YANGJIAFENG' }
+      { createAt: '2021-02-01', roleName: 'yangjiafeng' }
       ])
       commit(SET_ROLE_DIALOG_FORM_VISIBLE, false);
-    }, 1000)
+    }, 200)
 
   }
 }
